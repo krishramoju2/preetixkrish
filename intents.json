@@ -1,0 +1,207 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good afternoon",
+        "Greetings", "What's up", "How are you", "Hi there"
+      ],
+      "responses": [
+        "Hello! I'm the CDSC chatbot. How can I help you today?",
+        "Hi there! Welcome to CDSC. What would you like to know?"
+      ]
+    },
+    {
+      "tag": "membership",
+      "patterns": [
+        "Who can join CDSC?",
+        "Can I join the club?", 
+        "How to become a member?",
+        "What are the requirements to join?",
+        "I want to be part of your organization",
+        "How do I sign up?",
+        "Can students like me participate?",
+        "Am I eligible to join?",
+        "What do I need to become a member?",
+        "How can I get involved?",
+        "I want to participate in CDSC"
+      ],
+      "responses": [
+        "Anyone passionate about coding, development, and software creation can join CDSC! Whether you're a beginner or experienced developer, we welcome everyone eager to learn and contribute.",
+        "Great question! CDSC is open to all students who have an interest in coding and software development. No prior experience is required - just enthusiasm to learn!"
+      ]
+    },
+    {
+      "tag": "registration", 
+      "patterns": [
+        "How can I register for events?",
+        "How to sign up for XYZ event?",
+        "What's the registration process?",
+        "Where do I register?",
+        "How do I enroll for events?",
+        "What's the signup procedure?",
+        "How can I participate in events?",
+        "Where is the registration link?",
+        "How do I book a spot?",
+        "Can you help me register?"
+      ],
+      "responses": [
+        "To register for events, visit the Events section on our website or follow the registration link shared on our social media platforms. Fill out the required details and you'll receive a confirmation email.",
+        "Event registration is simple! Check our website's Events section or look for registration links on our Instagram and LinkedIn pages. Just fill out the form and you're all set!"
+      ]
+    },
+    {
+      "tag": "event_cost",
+      "patterns": [
+        "Are events free or paid?",
+        "Do I need to pay for events?",
+        "What's the cost of events?",
+        "How much do events cost?",
+        "Are there any charges?",
+        "Is there a fee?",
+        "Do events require payment?",
+        "Are workshops free?",
+        "What about pricing?",
+        "Any registration fees?"
+      ],
+      "responses": [
+        "Event cost details are always mentioned in the event description. Most of our workshops and sessions are free for members, but some specialized events may have minimal fees. Check the specific event page for pricing information."
+      ]
+    },
+    {
+      "tag": "collaborations",
+      "patterns": [
+        "Are there collaborations with other clubs?",
+        "Do you work with other clubs?",
+        "Any partnerships?",
+        "Joint events with other organizations?",
+        "Do you collaborate?",
+        "Work with other societies?",
+        "Cross-club activities?",
+        "Inter-club partnerships?",
+        "Joint workshops?",
+        "Collaborative projects?"
+      ],
+      "responses": [
+        "Yes! We frequently collaborate with other clubs to bring you joint workshops, hackathons, and more. Check our social media platforms for upcoming collaborative events.",
+        "Absolutely! CDSC regularly partners with other technical clubs and societies for hackathons, workshops, and coding competitions. Follow us on social media to stay updated!"
+      ]
+    },
+    {
+      "tag": "social_media",
+      "patterns": [
+        "What are the social media handles?",
+        "Where can I follow CDSC?",
+        "Instagram handle",
+        "LinkedIn page",
+        "Social media links",
+        "How to follow you?",
+        "Your social accounts?",
+        "Where do you post updates?",
+        "Social media presence",
+        "Follow on Instagram"
+      ],
+      "responses": [
+        "Follow us for updates! Instagram: @cdsc_official, LinkedIn: CDSC - College Development and Software Club. We post regular updates about events, workshops, and opportunities!"
+      ]
+    },
+    {
+      "tag": "github",
+      "patterns": [
+        "Does CDSC have GitHub?",
+        "What's your GitHub repository?",
+        "GitHub link",
+        "Where are your projects?",
+        "Can I see your code?",
+        "Open source projects",
+        "Repository link",
+        "GitHub organization",
+        "Project repositories",
+        "Code contributions"
+      ],
+      "responses": [
+        "Yes, we do! Check out our projects and contributions on our official GitHub organization. You can find collaborative projects, member contributions, and open-source initiatives there!"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "Contact information",
+        "How to reach out?",
+        "Who should I contact?",
+        "Get in touch",
+        "Contact details",
+        "Reach the team",
+        "How to ask questions?",
+        "Who can help me?",
+        "Support contact"
+      ],
+      "responses": [
+        "You can reach out to us through our social media channels or email us at cdsc@college.edu. Our team is always happy to help with any questions or suggestions!"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What events do you organize?",
+        "Upcoming events",
+        "What's happening?",
+        "Event schedule",
+        "Workshop details",
+        "What activities?",
+        "Current events",
+        "Event calendar",
+        "What's going on?",
+        "Latest events"
+      ],
+      "responses": [
+        "We organize various events including coding workshops, hackathons, tech talks, project showcases, and collaborative sessions with other clubs. Stay tuned to our announcements for more details!"
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "What projects is the club working on?",
+        "Current projects",
+        "Club initiatives", 
+        "What are you building?",
+        "Active projects",
+        "Development work",
+        "Club projects",
+        "What's being developed?",
+        "Project updates",
+        "Software projects"
+      ],
+      "responses": [
+        "We're always working on exciting projects! From web applications to mobile apps, AI/ML projects to competitive programming solutions. Check our GitHub for current projects and join us to contribute!"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I have a suggestion",
+        "Can I give feedback?",
+        "I have an idea",
+        "Feedback form",
+        "Suggestions",
+        "How to provide input?",
+        "I want to suggest something",
+        "Can I propose an idea?",
+        "Feedback channel",
+        "How to contribute ideas?"
+      ],
+      "responses": [
+        "We absolutely value your suggestions and feedback! You can reach out to us via our social media channels, email, or speak to any club member. Your ideas help us improve and grow!"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I don't have specific information about that. Please contact our team directly through our social media channels or email for more detailed assistance.",
+        "That's a great question! For specific queries, please reach out to our team members or check our social media pages for the most up-to-date information."
+      ]
+    }
+  ]
+}
